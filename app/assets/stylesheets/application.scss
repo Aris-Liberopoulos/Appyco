@@ -13,3 +13,29 @@
  *= require_tree .
  *= require_self
  */
+@import 'materialize';
+
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 90%;
+  }
+}
+nav {
+  color: #fff;
+  background-color: rgba(58, 142, 53, 0.4);
+  li a {
+    font-weight: bolder;
+    font-size: 1.05rem;
+  }
+}
+
+@media only screen and (min-width: 301px) {
+  nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+    height: 120px;
+    line-height: 120px;
+  }
+}
+
+.parallax-container {
+  height: 100vh;
+}
